@@ -1,0 +1,92 @@
+package bean;
+
+public class KhachHangBean {
+	private String makkh;
+	private String hoten;
+	private String diachi;
+	private String sodt;
+	private String email;
+	private String tendn;
+	private String pass;
+	
+	public String getMakkh() {
+		return makkh;
+	}
+
+	public void setMakkh(String makkh) {
+		this.makkh = makkh;
+	}
+
+	public String getHoten() {
+		return hoten;
+	}
+
+	public void setHoten(String hoten) {
+		this.hoten = hoten;
+	}
+
+	public String getDiachi() {
+		return diachi;
+	}
+
+	public void setDiachi(String diachi) {
+		this.diachi = diachi;
+	}
+
+	public String getSodt() {
+		return sodt;
+	}
+
+	public void setSodt(String sodt) {
+		this.sodt = sodt;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getTendn() {
+		return tendn;
+	}
+
+	public void setTendn(String tendn) {
+		this.tendn = tendn;
+	}
+
+	public String getPass() {
+		return pass;
+	}
+
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
+
+	public KhachHangBean() {
+		
+	}
+
+	public KhachHangBean(String makkh, String hoten, String diachi, String sodt, String email, String tendn,
+			String pass) {
+		super();
+		this.makkh = makkh;
+		this.hoten = hoten;
+		this.diachi = diachi;
+		this.sodt = sodt;
+		this.email = email;
+		this.tendn = tendn;
+		this.pass = pass;
+	}
+
+	@Override
+	public String toString() {
+		return "KhachHangBean [makkh=" + makkh + ", hoten=" + hoten + ", diachi=" + diachi + ", sodt=" + sodt
+				+ ", email=" + email + ", tendn=" + tendn + ", pass=" + pass + "]";
+	}
+	
+	 
+
+}
